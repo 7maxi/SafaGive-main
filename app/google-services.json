@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "908263026546",
+    "project_id": "safagive-44998",
+    "storage_bucket": "safagive-44998.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908263026546:android:c83ec19dd501129d12f7eb",
+        "android_client_info": {
+          "package_name": "com.example.safagive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "908263026546-ultnu9eus0i2q9clj62m0u84hc4mhr5l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB44sI2pwYTSYhDRBCy-XmNyT1cmQYHDvg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "908263026546-ultnu9eus0i2q9clj62m0u84hc4mhr5l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

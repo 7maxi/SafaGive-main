@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SafaGive" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/dark_primary</item>
+        <item name="cardViewStyle">@style/CardViewStyle</item>
+    </style>
+    <!-- Card Style -->
+    <style name="CardViewStyle" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:background">@drawable/tarjeta_blanca</item>
+        <item name="cardCornerRadius">50dp</item>
+        <item name="cardElevation">20dp</item>
+    </style>
+    <style name="Theme.SafaGive" parent="Base.Theme.SafaGive" />
+</resources>

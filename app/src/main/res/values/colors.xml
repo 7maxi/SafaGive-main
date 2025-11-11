@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dark_primary">#164C7E</color>
+    <color name="primary_color">#288AE4</color>
+    <color name="light_primary">#6F83FF</color>
+    <color name="fondo_card">#B2FFFFFF</color>
+    <color name="fondoazul">#69AFED</color>
+    <color name="shdow">#5164D8</color>
+    <color name="barraSuperior">#3951E3</color>
+</resources>

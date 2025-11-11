@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewFlipper
+        android:id="@+id/imageSlider"
+        android:layout_width="344dp"
+        android:layout_height="233dp"
+        android:padding="16dp"
+        android:inAnimation="@android:anim/slide_in_left"
+        android:outAnimation="@android:anim/slide_out_right"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/titleArticle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Titulo"
+        android:padding="16dp"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="@id/imageSlider"
+        app:layout_constraintStart_toStartOf="@id/imageSlider"
+        app:layout_constraintTop_toBottomOf="@id/imageSlider" />
+
+    <TextView
+        android:id="@+id/categoryArticle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Categoria"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/titleArticle"
+        app:layout_constraintStart_toStartOf="@id/imageSlider"
+        app:layout_constraintEnd_toEndOf="@id/imageSlider" />
+
+    <ScrollView
+        android:id="@+id/scrollViewDescription"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:padding="16dp"
+        app:layout_constraintTop_toBottomOf="@id/categoryArticle"
+        app:layout_constraintStart_toStartOf="@id/imageSlider"
+        app:layout_constraintEnd_toEndOf="@id/imageSlider"
+        app:layout_constraintBottom_toTopOf="@id/chatButtom">
+
+        <TextView
+            android:id="@+id/descriptionArticle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descripción"
+            android:padding="16dp"/>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/chatButtom"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Habla con el donante"
+        app:layout_constraintTop_toBottomOf="@id/scrollViewDescription"
+        app:layout_constraintStart_toStartOf="@id/imageSlider"
+        app:layout_constraintEnd_toEndOf="@id/imageSlider"
+        app:layout_constraintBottom_toBottomOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
